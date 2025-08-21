@@ -1,8 +1,7 @@
-package io.loop.test.day2;
+package io.loop.test.day_2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 public class SeleniumTest {
     public static void main(String[] args) throws InterruptedException {
