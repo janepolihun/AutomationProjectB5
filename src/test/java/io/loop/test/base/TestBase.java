@@ -12,13 +12,14 @@ public class TestBase {
 
 
     @BeforeMethod
-    public void setUpMethod(){
+    public void setUpMethod() {
         driver = WebDriverUtil.getDriver(ConfigurationReader.getProperties("browser"));
         driver.manage().window().maximize();
     }
 
     @AfterMethod
-    public void tearDownMethod (){
-        driver.quit();
+    public void tearDownMethod() {
+
+       driver.quit();
     }
 }
