@@ -78,7 +78,7 @@ public class DocuportUtils {
                 xpath = "//td[2][text()='" + emailAddress + "']/preceding-sibling::td//span[2]";
                 element = driver.findElement(By.xpath(xpath));
                 break;
-//td[2][text()='alex.de.souza@gmail.com']/following-sibling:td[1]
+            //td[2][text()='alex.de.souza@gmail.com']/following-sibling:td[1]
             case "username":
                 xpath = "//td[2][text()='" + emailAddress + "']//following-sibling::td[1]";
                 element = driver.findElement(By.xpath(xpath));
