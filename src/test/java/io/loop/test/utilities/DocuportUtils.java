@@ -20,6 +20,8 @@ public class DocuportUtils {
         WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
 
+
+
         switch (role.toLowerCase()) {
             case "client":
                 username.sendKeys(DocuportConstants.USERNAME_CLIENT);
@@ -109,6 +111,11 @@ public class DocuportUtils {
         }
         return element.getText().trim();
     }
+
+    public static String ADVISOR = "advisor";
+    public static String CLIENT = "client";
+    public static String SUPERVISOR = "supervisor";
+    public static String EMPLOYEE = "employee";
 
 
 }
