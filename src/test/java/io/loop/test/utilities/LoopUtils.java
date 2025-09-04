@@ -16,7 +16,7 @@ public class LoopUtils {
     public static String returnAnyFieldFromTableLOOP(WebDriver driver, String fullName, String field ) throws InterruptedException {
         WebElement element = null;
         String xpath = "";
-//tr[td[2][normalize-space()='John Doe']]/td[2]
+        //tr[td[2][normalize-space()='John Doe']]/td[2]
         switch (field.toLowerCase()){
             case "pizza type":
                 xpath = "//tr[td[normalize-space()='" + fullName + "']]/td[3]";
